@@ -5,4 +5,4 @@ pip3 install -r requirements.txt
 copy . /usr/src/app
 
 
-CMD [ "python", "./my_script.py" ]
+CMD [ "python", "./Main.py" ]
