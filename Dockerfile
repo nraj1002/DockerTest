@@ -2,7 +2,7 @@ FROM python:3
 RUN mkdir -p /usr/src/app
 WORKDIR /usr/src/app
 copy requirements.txt /usr/src/app
-run pip-3.3 install -r requirements.txt
+run pip install -r requirements.txt
 copy . /usr/src/app
 
 
