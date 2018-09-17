@@ -9,6 +9,5 @@ PyInstaller==3.3.1
 pyodbc==4.0.23
 pypiwin32>222
 pytz==2018.5
-pywin32>222
 requests==2.19.1
 urllib3==1.23
