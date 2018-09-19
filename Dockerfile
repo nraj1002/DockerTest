@@ -7,5 +7,6 @@ copy . /usr/src/app
 
 
 CMD [ "python", "./Main.py" ]
+CMD ["tail", "-F", "/var/log"]
 
 
